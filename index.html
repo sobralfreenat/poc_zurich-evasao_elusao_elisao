@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 140vh;
             background-color: #f0f0f0; /* Cor de fundo opcional */
@@ -17,9 +17,19 @@
         iframe {
             border: none; /* Remove a borda do iframe */
         }
+        img {
+            width: 65%; /* Ajuste a largura da imagem (pode ser em % ou px) */
+            max-width: 600px; /* Largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-bottom: 20px; /* Espaço entre a imagem e o vídeo */
+            position: relative; /* Permite ajustar a posição */
+            top: 0; /* Ajuste a posição vertical */
+            left: 0; /* Ajuste a posição horizontal */
+        }
     </style>
 </head>
 <body>
+    <img src="https://zurichcontabil.com.br/wp-content/uploads/2023/05/Screenshot_3.png" alt="Imagem acima do vídeo">
     <iframe src="https://app.Lumi.education/api/v1/run/vqF4nk/embed" width="1088" height="720" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
     <script src="https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js" charset="UTF-8"></script>
 </body>

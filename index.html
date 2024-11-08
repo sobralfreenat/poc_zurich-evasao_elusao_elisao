@@ -5,6 +5,10 @@
     <title>Embed H5P Content</title>
     <style>
         /* Adicione seus estilos aqui, se necessário */
+        :root {
+            --background-color: #376060; /* Cor de fundo padrão */
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -12,13 +16,13 @@
             flex-direction: column;
             align-items: center;
             height: 140vh;
-            background-color: #f0f0f0; /* Cor de fundo opcional */
+            background-color: #005e66; /* Usa a variável para a cor de fundo */
         }
         iframe {
             border: none; /* Remove a borda do iframe */
         }
         img {
-            width: 65%; /* Ajuste a largura da imagem (pode ser em % ou px) */
+            width: 80%; /* Ajuste a largura da imagem (pode ser em % ou px) */
             max-width: 600px; /* Largura máxima da imagem */
             height: auto; /* Mantém a proporção da imagem */
             margin-bottom: 20px; /* Espaço entre a imagem e o vídeo */
